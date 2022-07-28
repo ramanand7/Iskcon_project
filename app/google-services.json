@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "669267577655",
+    "firebase_url": "https://iskcon-admin-default-rtdb.firebaseio.com",
+    "project_id": "iskcon-admin",
+    "storage_bucket": "iskcon-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669267577655:android:6bc1ecf206ada26d49a8b2",
+        "android_client_info": {
+          "package_name": "com.krsna.iskcon__admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669267577655-f4s2ujhbads98me0sdg9jsm5mc8udglr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUtuILdp_GY2pvpHB-VgSva84ZbTLnEjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669267577655-f4s2ujhbads98me0sdg9jsm5mc8udglr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669267577655:android:f98973f087c5bb7249a8b2",
+        "android_client_info": {
+          "package_name": "com.krsna.rohini_iskcon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669267577655-f4s2ujhbads98me0sdg9jsm5mc8udglr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUtuILdp_GY2pvpHB-VgSva84ZbTLnEjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669267577655-f4s2ujhbads98me0sdg9jsm5mc8udglr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.prayers.BhogaOffering">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bhoga Offering"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bhoga_offering_text" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\n\nPrabhupada Pranama Mantras (3 times)
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nnama om visnu-padaya
+\nkrsna-presthaya bhu-tale
+\nsrimate bhaktivedanta
+\nsvamin iti namine
+\nnamas te sarasvate deve
+\ngaura-vani-pracarine
+\nnirvisesa-sunyavadi
+\npascatya-desa-tarine
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\n\nSri Gauranga Pranama Mantra(3 times)
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nnamo maha-vadanyaya
+\nkrishna-prema-pradaya te
+\nkrishnaya krishna-caitanya
+\nnamne gaura-tvishe namah
+
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\n\nSri Krishna Pranama Mantras(3 times)
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nnamo brahmanya-devaya
+\ngo-brahmana-hitaya ca
+\njagad-dhitaya krishnaya
+\ngovindaya namo namah
+
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\n\nSri Panca Tattva Pranama Mantra(3 times)
+\n(jaya) Sri-krsna-caitanya
+\nprabhu nityananda
+\nSri-advaita gadadhara
+\nsrivasadi-gaura-bhakta vrinda
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+\n\nHare Krsna Maha Mantra(3 times)
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nHare Krsna Hare Krsna
+\nKrsna Krsna Hare Hare
+\nHare Rama Hare Rama
+\nRama Rama Hare Hare
+
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n
+6. Wait for at least 10 mins. Then you can take the prasadam from altar after clapping your hands 3 times or by ringing bell.
+\n7. Mix the Prasad on the plate with rest of the preparations.
+\n8. Wash the plate and glass, then you can honour Prasad."
+                    />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

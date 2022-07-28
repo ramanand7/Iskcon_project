@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Chapter - 2"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.7\n
+kārpaṇya-doṣopahata-svabhāvaḥ\n
+pṛcchāmi tvāṁ dharma-sammūḍha-cetāḥ\n
+yac chreyaḥ syān niścitaṁ brūhi tan me\n
+śiṣyas te ’haṁ śādhi māṁ tvāṁ prapannam\n\n"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="kārpaṇya—miserly; doṣa—weakness; upahata—being inflicted by; svabhāvaḥ—characteristics; pṛcchāmi—I am asking; tvām—unto You; dharma—religion; saṁmūḍha—bewildered; cetāḥ—in heart; yat—what; śreyaḥ—all-good; syāt—may be; niścitam—confidently; brūhi—tell; tat—that; me—unto me; śiṣyaḥ—disciple; te—Your; aham—I am; śādhi—just instruct; mām—me; tvām—unto You; prapannam—surrendered.
+\n\nNow I am confused about my duty and have lost all composure because of weakness. In this condition I am asking You to tell me clearly what is best for me. Now I am Your disciple, and a soul surrendered unto You. Please instruct me.
+\n\n
+"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.11\n
+śrī-bhagavān uvāca\n
+aśocyān anvaśocas tvaṁ\n
+prajñā-vādāṁś ca bhāṣase\n
+gatāsūn agatāsūṁś ca\n
+nānuśocanti paṇḍitāḥ\n\n"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="śrī bhagavān uvāca—the Supreme Personality of Godhead said; aśocyān—that which is not worthy of lamentation; anvaśocaḥ—you are lamenting; tvam—you; prajñā-vādāḥ—learned talks; ca—also; bhāṣase—speaking; gata—lost; asūn—life; agata—not past; asūn—life; ca—also; na—never; anuśocanti—lament; paṇḍitāḥ—the learned.
+\n\nThe Supreme Personality of Godhead said: While speaking learned words, you are mourning for what is not worthy of grief. Those who are wise lament neither for the living nor the dead.
+\n\n
+
+"
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.12\n
+na tv evāhaṁ jātu nāsaṁ\n
+na tvaṁ neme janādhipāḥ\n
+na caiva na bhaviṣyāmaḥ\n
+sarve vayam ataḥ param\n\n"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="na—never; tu—but; eva—certainly; aham—I; jātu—become; na—never; āsam—existed; na—it is not so; tvam—yourself; na—not; ime—all these; janādhipāḥ—kings; na—never; ca—also; eva—certainly; na—not like that; bhaviṣyāmaḥ—shall exist; sarve—all of us; vayam—we; ataḥ param—hereafter.
+\n\nNever was there a time when I did not exist, nor you, nor all these kings; nor in the future shall any of us cease to be.
+\n\n
+"
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.13\n
+dehino ’smin yathā dehe\n
+kaumāraṁ yauvanaṁ jarā\n
+tathā dehāntara-prāptir\n
+dhīras tatra na muhyati\n\n
+"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dehinaḥ—of the embodied; asmin—in this; yathā—as; dehe—in the body; kaumāram—boyhood; yauvanam—youth; jarā—old age; tathā—similarly; dehāntara—transference of the body; prāptiḥ—achievement; dhīraḥ—the sober; tatra—thereupon; na—never; muhyati—deluded.
+\n\nAs the embodied soul continually passes, in this body, from boyhood to youth to old age, the soul similarly passes into another body at death. The self-realized soul is not bewildered by such a change.
+\n\n
+"
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.14\n
+mātrā-sparśās tu kaunteya\n
+śītoṣṇa-sukha-duḥkha-dāḥ\n
+āgamāpāyino ’nityās\n
+tāṁs titikṣasva bhārata\n\n
+"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mātrā—sensuous; sparśāḥ—perception; tu—only; kaunteya—O son of Kuntī; śīta—winter; uṣṇa—summer; sukha—happiness; duḥkha-daḥ—giving pain; āgama—appearing; apāyinaḥ—disappearing; anityāḥ—nonpermanent; tān—all of them; titikṣasva—just try to tolerate; bhārata—O descendant of the Bhārata dynasty.
+\n\nO son of Kuntī, the nonpermanent appearance of happiness and distress, and their disappearance in due course, are like the appearance and disappearance of winter and summer seasons. They arise from sense perception, O scion of Bharata, and one must learn to tolerate them without being disturbed.
+\n\n
+"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.20\n
+na jāyate mriyate vā kadācin\n
+nāyaṁ bhūtvā bhavitā vā na bhūyaḥ\n
+ajo nityaḥ śāśvato ’yaṁ purāṇo\n
+na hanyate hanyamāne śarīre\n\n
+"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="na—never; jāyate—takes birth; mriyate—never dies; vā—either; kadācit—at any time (past, present or future); na—never; ayam—this; bhūtvā—came into being; bhavitā—will come to be; vā—or; na—not; bhūyaḥ—or has come to be; ajaḥ—unborn; nityaḥ—eternal; śāśvataḥ—permanent; ayam—this; purāṇaḥ—the oldest; na—never; hanyate—is killed; hanyamāne—being killed; śarīre—by the body.
+\n\nFor the soul there is never birth nor death. Nor, having once been, does he ever cease to be. He is unborn, eternal, ever-existing, undying and primeval. He is not slain when the body is slain.
+\n\n
+"
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.22\n
+vāsāṁsi jīrṇāni yathā vihāya\n
+navāni gṛhṇāti naro ’parāṇi\n
+tathā śarīrāṇi vihāya jīrṇāny\n
+anyāni saṁyāti navāni dehī\n\n
+"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="vāsāṁsi—garments; jīrṇāni—old and worn out; yathā—as it is; vihāya—giving up; navāni—new garments; gṛhṇāti—does accept; naraḥ—a man; aparāṇi—other; tathā—in the same way; śarīrāṇi—bodies; vihāya—giving up; jīrṇāni—old and useless; anyāni—different; saṁyāti—verily accepts; navāni—new sets; dehī—the embodied.\n\n
+					As a person puts on new garments, giving up old ones, similarly, the soul accepts new material bodies, giving up the old and useless ones.
+\n\n
+ "
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.23\n
+nainaṁ chindanti śastrāṇi\n
+nainaṁ dahati pāvakaḥ\n
+na cainaṁ kledayanty āpo\n
+na śoṣayati mārutaḥ\n\n
+"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="na—never; enam—unto this soul; chindanti—can cut into pieces; śastrāṇi —all weapons; na—never; enam—unto this soul; dahati—burns; pāvakaḥ—fire; na—never; ca—also; enam—unto this soul; kledayanti—moistens; āpaḥ —water; na—never; śoṣayati—dries; mārutaḥ—wind.
+\n\nThe soul can never be cut into pieces by any weapon, nor can he be burned by fire, nor moistened by water, nor withered by the wind.
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.27\n
+jātasya hi dhruvo mṛtyur\n
+dhruvaṁ janma mṛtasya ca\n
+tasmād aparihārye ’rthe\n
+na tvaṁ śocitum arhasi\n\n
+"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="jātasya—one who has taken his birth; hi—certainly; dhruvaḥ—a fact; mṛtyuḥ—death; dhruvam—it is also a fact; janma—birth; mṛtasya—of the dead; ca—also; tasmāt—therefore; aparihārye—for that which is unavoidable; arthe—in the matter of; na—do not; tvam—you; śocitum—to lament; arhasi—deserve.
+\n\nFor one who has taken his birth, death is certain; and for one who is dead, birth is certain. Therefore, in the unavoidable discharge of your duty, you should not lament.
+\n\n
+ "
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.30\n
+dehī nityam avadhyo ’yaṁ\n
+dehe sarvasya bhārata\n
+tasmāt sarvāṇi bhūtāni\n
+na tvaṁ śocitum arhasi\n\n
+ "
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dehī—the owner of the material body; nityam—eternally; avadhyaḥ—cannot be killed; ayam—this soul; dehe—in the body; sarvasya—of everyone; bhārata—O descendant of Bharata; tasmāt—therefore; sarvāṇi—all; bhūtāni—living entities (that are born); na—never; tvam—yourself; śocitum —to lament; arhasi— deserve.
+\n\nO descendant of Bharata, he who dwells in the body is eternal and can never be slain. Therefore you need not grieve for any creature.
+\n\n
+ "
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.40\n
+nehābhikrama-nāśo ’sti\n
+pratyavāyo na vidyate\n
+sv-alpam apy asya dharmasya\n
+trāyate mahato bhayāt\n\n
+"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="na—there is not; iha—in this world; abhikrama—endeavoring; nāśaḥ—loss; asti—there is; pratyavāyaḥ—diminution; na—never; vidyate—there is; svalpam—little; api—although; asya—of this; dharmasya—of this occupation; trāyate—releases; mahataḥ—of very great; bhayāt—from danger.
+\n\nIn this endeavor there is no loss or diminution, and a little advancement on this path can protect one from the most dangerous type of fear.
+\n\n
+ "
+                    />
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.41\n
+vyavasāyātmikā buddhir\n
+ekeha kuru-nandana\n
+bahu-śākhā hy anantāś ca\n
+buddhayo ’vyavasāyinām\n\n
+"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="vyavasāyātmikā—resolute Kṛṣṇa consciousness; buddhiḥ—intelligence; ekā—only one; iha—in this world; kuru-nandana—O beloved child of the Kurus; bahu-śākhāḥ—various branches; hi—indeed; anantāḥ—unlimited; ca—also; buddhayaḥ—intelligence; avyavasāyinām—of those who are not in Kṛṣṇa consciousness.
+\n\nThose who are on this path are resolute in purpose, and their aim is one. O beloved child of the Kurus, the intelligence of those who are irresolute is many-branched.
+\n\n
+ "
+                    />
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.44\n
+bhogaiśvarya-prasaktānāṁ\n
+tayāpahṛta-cetasām\n
+vyavasāyātmikā buddhiḥ\n
+samādhau na vidhīyate\n\n
+ "
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="bhoga—material enjoyment; aiśvarya—opulence; prasaktānām—those who are so attached; tayā—by such things; apahṛta-cetasām—bewildered in mind; vyavasāyātmikā—fixed determination; buddhiḥ—devotional service of the Lord; samādhau—in the controlled mind; na—never; vidhīyate—does take place.
+\n\nIn the minds of those who are too attached to sense enjoyment and material opulence, and who are bewildered by such things, the resolute determination of devotional service to the Supreme Lord does not take place.
+\n\n
+ "
+                    />
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.45\n
+trai-guṇya-viṣayā vedā\n
+nistrai-guṇyo bhavārjuna\n
+nirdvandvo nitya-sattva-stho\n
+niryoga-kṣema ātmavān\n\n
+"
+                    android:textStyle="bold"
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="traiguṇya—pertaining to the three modes of material nature; viṣayāḥ—on the subject matter; vedāḥ—Vedic literatures; nistraiguṇyaḥ—in a pure state of spiritual existence; bhava—be; arjuna—O Arjuna; nirdvandvaḥ—free from the pains of opposites; nitya-sattva-sthaḥ—ever remaining in sattva (goodness); niryoga-kṣemaḥ—free from (the thought of) acquisition and preservation; ātmavān—established in the Self.
+\n\nThe Vedas mainly deal with the subject of the three modes of material nature. Rise above these modes, O Arjuna. Be transcendental to all of them. Be free from all dualities and from all anxieties for gain and safety, and be established in the Self.
+\n\n
+ "
+                    />
+
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.46\n
+yāvān artha udapāne\n
+sarvataḥ samplutodake\n
+tāvān sarveṣu vedeṣu\n
+brāhmaṇasya vijānataḥ\n\n
+"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yāvān—all that; arthaḥ—is meant; udapāne—in a well of water; sarvataḥ—in all respects; sampluta-udake—in a great reservoir of water; tāvān—similarly; sarveṣu—in all; vedeṣu—Vedic literatures; brāhmaṇasya—of the man who knows the Supreme Brahman; vijānataḥ—of one who is in complete knowledge.
+\n\nAll purposes that are served by the small pond can at once be served by the great reservoirs of water. Similarly, all the purposes of the Vedas can be served to one who knows the purpose behind them.
+\n\n
+ "
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.59\n
+viṣayā vinivartante\n
+nirāhārasya dehinaḥ\n
+rasa-varjaṁ raso ’py asya\n
+paraṁ dṛṣṭvā nivartate\n\n
+ "
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="viṣayāḥ—objects for sense enjoyment; vinivartante—are practiced to be refrained from; nirāhārasya—by negative restrictions; dehinaḥ—for the embodied; rasa-varjam—giving up the taste; rasaḥ—sense of enjoyment; api—although there is; asya—his; param—far superior things; dṛṣṭvā—by experiencing; nivartate—ceases from.
+\n\nThe embodied soul may be restricted from sense enjoyment, though the taste for sense objects remains. But, ceasing such engagements by experiencing a higher taste, he is fixed in consciousness.
+\n\n
+"
+                    />
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.62\n
+dhyāyato viṣayān puṁsaḥ\n
+saṅgas teṣūpajāyate\n
+saṅgāt sañjāyate kāmaḥ\n
+kāmāt krodho ’bhijāyate\n\n
+ "
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="dhyayataḥ—while contemplating; viṣayān—sense objects; puṁsaḥ—of the person; saṅgaḥ—attachment; teṣu—in the sense objects; upajāyate—develops; saṅgāt—attachment; sañjāyate—develops; kāmaḥ—desire; kāmāt—from desire; krodhaḥ—anger; abhijāyate—becomes manifest.
+\n\nWhile contemplating the objects of the senses, a person develops attachment for them, and from such attachment lust develops, and from lust anger arises.
+\n\n
+ "
+                    />
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.63\n
+krodhād bhavati sammohaḥ\n
+sammohāt smṛti-vibhramaḥ\n
+smṛti-bhraṁśād buddhi-nāśo\n
+buddhi-nāśāt praṇaśyati\n\n
+ "
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="krodhāt—from anger; bhavati—takes place; saṁmohaḥ—perfect illusion; saṁmohāt—from illusion; smṛti—of memory; vibhramaḥ—bewilderment; smṛti-bhraṁśāt—after bewilderment of memory; buddhi-nāśaḥ—loss of intelligence; buddhi-nāśāt—and from loss of intelligence; praṇaśyati—falls down.
+\n\nFrom anger, delusion arises, and from delusion bewilderment of memory. When memory is bewildered, intelligence is lost, and when intelligence is lost, one falls down again into the material pool.
+\n\n
+"                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.64\n
+rāga-dveṣa-vimuktais tu\n
+viṣayān indriyaiś caran\n
+ātma-vaśyair vidheyātmā\n
+prasādam adhigacchati\n\n
+ "
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="rāga—attachment; dveṣa—detachment; vimuktaiḥ—by one who has been free from such things; tu—but; viṣayān—sense objects; indriyaiḥ—by the senses; caran—acting; ātma-vaśyaiḥ—one who has control over; vidheyātmā—one who follows regulated freedom; prasādam—the mercy of the Lord; adhigacchati—attains.
+\n\nOne who can control his senses by practicing the regulated principles of freedom can obtain the complete mercy of the Lord and thus become free from all attachment and aversion.
+\n\n
+ "
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+2.69\n
+yā niśā sarva-bhūtānāṁ\n
+tasyāṁ jāgarti saṁyamī\n
+yasyāṁ jāgrati bhūtāni\n
+sā niśā paśyato muneḥ\n\n
+yā—what; niśā—is night; sarva—all; bhūtānām—of living entities; tasyām—in that; jāgarti—wakeful; saṁyamī—the self-controlled; yasyām—in which; jāgrati—awake; bhūtāni—all beings; sā—that is; niśā—night; paśyataḥ—for the introspective; muneḥ—sage.
+\n\nWhat is night for all beings is the time of awakening for the self-controlled; and the time of awakening for all beings is night for the introspective sage.
+
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

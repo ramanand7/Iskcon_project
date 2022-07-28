@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH12">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 12"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="12.5\n
+kleśo ’dhikataras teṣām\n
+avyaktāsakta-cetasām\n
+avyaktā hi gatir duḥkhaṁ\n
+dehavadbhir avāpyate\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="kleśaḥ—trouble; adhikataraḥ—more troublesome; teṣām—of them; avyakta—unmanifested; āsakta—being attached; cetasām—of those whose minds; avyaktā—unmanifested; hi—certainly; gatiḥ duḥkham—progress is troublesome; dehavadbhiḥ—of the embodiments; avāpyate—achieve.\n\n
+For those whose minds are attached to the unmanifested, impersonal feature of the Supreme, advancement is very troublesome. To make progrese in that discipline is always difficult for those who are embodied.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="12.8\n
+mayy eva mana ādhatsva\n
+mayi buddhiṁ niveśaya\n
+nivasiṣyasi mayy eva\n
+ata ūrdhvaṁ na saṁśayaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mayi—unto Me; eva—certainly; manaḥ—mind; ādhatsva—fix; mayi—upon Me; buddhim—intelligence; niveśaya—apply; nivasiṣyasi—you lead; mayi—unto Me; eva—certainly; ataḥ—therefore; ūrdhvam—up; na—never; saṁśayaḥ—doubt.\n\n
+Just fix your mind upon Me, the Supreme Personality of Godhead, and engage all your intelligence in Me. Thus you will live in Me always, without a doubt.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="12.9\n
+atha cittaṁ samādhātuṁ\n
+na śaknoṣi mayi sthiram\n
+abhyāsa-yogena tato\n
+mām icchāptuṁ dhanañjaya\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="atha—if, therefore; cittam—mind; samādhātam—fixing; na—not; śaknoṣi—able; mayi—upon Me; sthiram—fixed; abhyāsa—practice; yogena—by devotional service; tataḥ—therefore; mām—Me; icchā—desire; āptum—to get; dhanañjaya—O Arjuna.\n\n
+My dear Arjuna, O winner of wealth, if you cannot fix your mind upon Me without deviation, then follow the regulated principles of bhakti-yoga In this way you will develop a desire to attain to Me.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="12.10\n
+abhyāse ’py asamartho ’si\n
+mat-karma-paramo bhava\n
+mad-artham api karmāṇi\n
+kurvan siddhim avāpsyasi\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="abhyāse—in the practice of; api—even; asamarthaḥ—unable; asi—you are; mat-karma—My work; paramaḥ—supreme; bhava—you become; mat-artham—for My sake; api—even though; karmāṇi—what; kurvan—performing; siddhim—perfection; avāpsyasi—achieve.\n\n
+If you cannot practice the regulations of bhakti-yoga, then just try to work for Me, because by working for Me you will come to the perfect stage.\n\n\n
+"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

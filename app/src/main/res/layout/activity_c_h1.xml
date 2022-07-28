@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 1"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="1.1\n\n
+dhṛtarāṣṭra uvāca\n
+dharma-kṣetre kuru-kṣetre\n
+samavetā yuyutsavaḥ\n
+māmakāḥ pāṇḍavāś caiva\n
+kim akurvata sañjaya\n\n
+"
+
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+dhṛtarāṣṭraḥ—King Dhṛtarāṣṭra; uvāca—said;
+dharma-kṣetre—in the place of pilgrimage; kuru-kṣetre—in the place named Kurukṣetra;
+ samavetāḥ—assembled; yuyatsavaḥ—desiring to fight; māmakāḥ—my party (sons); pāṇḍavāḥ—the sons of Pāṇḍu; \n
+ca—and; eva-certainly; kim—what; akurvata—did they do; sañjaya—O Sañjaya.\n
+\nDhṛtarāṣṭra said: O Sañjaya, after assembling in the place of pilgrimage at Kurukṣetra,\n what did my sons and the sons of Pāṇḍu do, being desirous to fight?
+
+
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/yellow_gradient_background"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/hare_krsna_maha_mantra"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:gravity="center"
+      android:text="@string/hare_krsna_mahamantra_hindi"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"/>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/btn_aarti"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/hare_krsna_maha_mantra"
+      android:layout_marginHorizontal="20dp"
+      android:layout_marginVertical="40dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:alpha="0.6"
+        android:background="@drawable/white_home_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_aarti_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        style="bold"
+        android:textColor="@color/black"
+        android:text="@string/aartis"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/btn_pranam_mantra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/hare_krsna_maha_mantra"
+      android:layout_marginHorizontal="20dp"
+      android:layout_marginVertical="40dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:alpha="0.6"
+        android:background="@drawable/white_home_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_pranam_mantra_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        style="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="@string/pranam_mantras"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/btn_prayer"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/btn_aarti"
+      android:layout_marginHorizontal="20dp"
+      android:layout_marginTop="40dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:alpha="0.6"
+        android:background="@drawable/white_home_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_prayer_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        style="bold"
+        android:textColor="@color/black"
+        android:text="@string/prayers"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/btn_shlokas"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/btn_aarti"
+      android:layout_marginHorizontal="20dp"
+      android:layout_marginTop="40dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:alpha="0.6"
+        android:background="@drawable/white_home_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_shlokas_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        style="bold"
+        android:textColor="@color/black"
+        android:text="@string/shlokas"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

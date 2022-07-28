@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 8"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="8.5\n
+anta-kāle ca mām eva\n
+smaran muktvā kalevaram\n
+yaḥ prayāti sa mad-bhāvaṁ\n
+yāti nāsty atra saṁśayaḥ\n\n"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="anta-kāle—at the end of life; ca—also; mām—unto Me; eva—certainly; smaran—remembering; muktvā—quitting; kalevaram—the body; yaḥ—he who; prayāti—goes; saḥ—he; mad-bhāvam—My nature; yati—achieves; na—not; asti—there is; atra—here; saṁśayaḥ—doubt.\n\n
+And whoever, at the time of death, quits his body, remembering Me alone, at once attains My nature. Of this there is no doubt.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="8.6\n
+yaṁ yaṁ vāpi smaran bhāvaṁ\n
+tyajaty ante kalevaram\n
+taṁ tam evaiti kaunteya\n
+sadā tad-bhāva-bhāvitaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yam yam—whatever; vā—either; api—also; smaran—remembering; bhāvam—nature; tyajati—give up; ante—at the end; kalevaram—this body; tam tam—similar; eva—certainly; eti—gets; kaunteya—O son of Kuntī; sadā—always; tat—that; bhāva—state of being; bhāvitaḥ—remembering.\n\n
+Whatever state of being one remembers when he quits his body, that state he will attain without fail.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="8.7\n
+tasmāt sarveṣu kāleṣu\n
+mām anusmara yudhya ca\n
+mayy arpita-mano-buddhir\n
+mām evaiṣyasy asaṁśayaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="tasmāt—therefore; sarveṣu—always; kāleṣu—time; mām—unto Me; anusmara—go on remembering; yudhya—fight; ca—also; mayi—unto Me; arpita—surrender; manaḥ—mind; buddhiḥ—intellect; mām—unto Me; eva—surely; eṣyasi—will attain; asaṁśayaḥ—beyond a doubt.\n\n
+Therefore, Arjuna, you should always think of Me in the form of Kṛṣṇa and at the same time carry out your prescribed duty of fighting. With your activities dedicated to Me and your mind and intelligence fixed on Me, you will attain Me without doubt.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="8.14\n
+ananya-cetāḥ satataṁ\n
+yo māṁ smarati nityaśaḥ\n
+tasyāhaṁ sulabhaḥ pārtha\n
+nitya-yuktasya yoginaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ananya-cetāḥ—without deviation; satatam—always; yaḥ—anyone; mām—Me (Kṛṣṇa); smarati—remembers; nityaśaḥ—regularly; tasya—to him; aham—I am; sulabhaḥ—very easy to achieve; pārtha—O son of Pṛthā; nitya—regularly; yuktasya—engaged; yoginaḥ—of the devotee.\n\n
+For one who remembers Me without deviation, I am easy to obtain, O son of Pṛthā, because of his constant engagement in devotional service.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="8.15\n
+mām upetya punar janma\n
+duḥkhālayam aśāśvatam\n
+nāpnuvanti mahātmānaḥ\n
+saṁsiddhiṁ paramāṁ gatāḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mām—unto Me; upetya—achieving; punaḥ—again; janma—birth; duḥkha-ālayam—place of miseries; aśāśvatam—temporary; na—never; āpnuvanti—attain; mahātmānaḥ—the great souls; saṁsiddhim—perfection; paramām—ultimate; gatāḥ—achieved.\n\n
+After attaining Me, the great souls, who are yogīs in devotion, never return to this temporary world, which is full of miseries, because they have attained the highest perfection.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="8.16\n
+ā-brahma-bhuvanāl lokāḥ\n
+punar āvartino ’rjuna\n
+mām upetya tu kaunteya\n
+punar janma na vidyate\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ābrahma—up to the Brahmaloka planet; bhuvanāt—from the planetary systems; lokāḥ—planets; punaḥ—again; āvartinaḥ—returning; arjuna—O Arjuna; mām—unto Me; upetya—arriving; tu—but; kaunteya—O son of Kuntī; punaḥ janma—rebirth; na—never; vidyate—takes to.\n\n
+From the highest planet in the material world down to the lowest, all are places of misery wherein repeated birth and death take place. But one who attains to My abode, O son of Kuntī, never takes birth again.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="8.28\n
+vedeṣu yajñeṣu tapaḥsu caiva\n
+dāneṣu yat puṇya-phalaṁ pradiṣṭam\n
+atyeti tat sarvam idaṁ viditvā\n
+yogī paraṁ sthānam upaiti cādyam\n\n
+"
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+vedeṣu—in the study of the Vedas; yajñeṣu—in the performances of yajña, sacrifice; tapaḥsu—undergoing different types of austerities; ca—also; eva—certainly; dāneṣu—in giving charities; yat—that which; puṇya-phalam—the result of pious work; pradiṣṭam—directed; atyeti—surpasses; tat—all those; sarvam idam—all those described above; viditvā—knowing; yogī—the devotee; param—supreme; sthānam—abode; upaiti—achieved peace; ca—also; ādyam—original.\n\n
+A person who accepts the path of devotional service is not bereft of the results derived from studying the Vedas, performing austere sacrifices, giving charity or pursuing philosophical and fruitive activities. At the end he reaches the supreme abode.
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

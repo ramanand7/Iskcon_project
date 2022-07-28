@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 5"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="5.18\n
+vidyā-vinaya-sampanne\n
+brāhmaṇe gavi hastini\n
+śuni caiva śva-pāke ca\n
+paṇḍitāḥ sama-darśinaḥ\n\n"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+vidyā—education; vinaya—gentleness; sampanne—fully equipped; brāhmaṇe—in the brāhmaṇa; gavi—in the cow; hastini—in the elephant; śuni—in the dog; ca—and; eva—certainly; śvapāke—in the dog-eater (the outcaste); ca—respectively; paṇḍitāḥ—those who are so wise; sama-darśinaḥ—do see with equal vision.\n\n
+The humble sage, by virtue of true knowledge, sees with equal vision a learned and gentle brāhmaṇa, a cow, an elephant, a dog and a dog-eater [outcaste] .\n\n"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="5.22\n
+ye hi saṁsparśa-jā bhogā\n
+duḥkha-yonaya eva te\n
+ādy-antavantaḥ kaunteya\n
+na teṣu ramate budhaḥ\n\n"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+ye—those; hi—certainly; saṁsparśajāḥ—by contact with the material senses; bhogāḥ—enjoyment; duḥkha—distress; yonayaḥ—sources of; eva—certainly; te—they are; ādi—in the beginning; antavantaḥ—subject to; kaunteya—O son of Kuntī; na—never; teṣu—in those; ramate—take delight; budhaḥ—the intelligent.\n\n
+An intelligent person does not take part in the sources of misery, which are due to contact with the material senses. O son of Kuntī, such pleasures have a beginning and an end, and so the wise man does not delight in them.\n\n"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+5.29\n
+bhoktāraṁ yajña-tapasāṁ\n
+sarva-loka-maheśvaram\n
+suhṛdaṁ sarva-bhūtānāṁ\n
+jñātvā māṁ śāntim ṛcchati\n\n"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+bhoktāram—beneficiary; yajña—sacrifices; tapasām—of penances and austerities; sarva-loka—all planets and the demigods thereof; maheśvaram—the Supreme Lord; suhṛdam—benefactor; sarva—all; bhūtānām—of the living entities; jñātvā—thus knowing; mām—Me (Lord Kṛṣṇa); śāntim—relief from material pangs; ṛcchati—achieves.\n\n
+The sages, knowing Me as the ultimate purpose of all sacrifices and austerities, the Supreme Lord of all planets and demigods and the benefactor and well-wisher of all living entities, attain peace from the pangs of material miseries.
+
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

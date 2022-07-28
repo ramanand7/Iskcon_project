@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 3"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="3.9\n
+yajñārthāt karmaṇo ’nyatra\n
+loko ’yaṁ karma-bandhanaḥ\n
+tad-arthaṁ karma kaunteya\n
+mukta-saṅgaḥ samācara\n\n"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yajña-arthāt—only for the sake of Yajña, or Viṣṇu; karmaṇaḥ—work done; anyatra—otherwise; lokaḥ—this world; ayam—this; karma-bandhanaḥ—bondage by work; tat—Him; artham—for the sake of; karma—work; kaunteya—O son of Kuntī; mukta-saṅgaḥ—liberated from association; samācara—do it perfectly.
+\n\nWork done as a sacrifice for Viṣṇu has to be performed, otherwise work binds one to this material world. Therefore, O son of Kuntī, perform your prescribed duties for His satisfaction, and in that way you will always remain unattached and free from bondage.
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="3.14\n
+annād bhavanti bhūtāni\n
+parjanyād anna-sambhavaḥ\n
+yajñād bhavati parjanyo\n
+yajñaḥ karma-samudbhavaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="annāt—from grains; bhavanti—grow; bhūtāni—the material bodies; parjanyāt—from rains; anna—food grains; sambhavaḥ—are made possible; yajñāt—from the performance of sacrifice; bhavati—becomes possible; parjanyaḥ—rains; yajñaḥ—performance of yajña; karma—prescribed duties; samudbhavaḥ—born of.
+\n\nAll living bodies subsist on food grains, which are produced from rain. Rains are produced by performance of yajña [sacrifice], and yajña is born of prescribed duties.
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="3.21\n
+yad yad ācarati śreṣṭhas\n
+tat tad evetaro janaḥ\n
+sa yat pramāṇaṁ kurute\n
+lokas tad anuvartate\n\n"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yat—whatever; yat—and whichever; ācarati—does he act; śreṣṭhaḥ—respectable leader; tat—that; tat—and that alone; eva—certainly; itaraḥ—common; janaḥ—person; saḥ—he; yat—whichever; pramāṇam—evidence; kurute—does perform; lokaḥ—all the world; tat—that; anuvartate—follow in the footsteps.
+\n\nWhatever action is performed by a great man, common men follow in his footsteps. And whatever standards he sets by exemplary acts, all the world pursues.
+\n\n"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="3.27\n
+prakṛteḥ kriyamāṇāni\n
+guṇaiḥ karmāṇi sarvaśaḥ\n
+ahaṅkāra-vimūḍhātmā\n
+kartāham iti manyate\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="prakṛteḥ—of material nature; kriyamāṇāni—all being done; guṇaiḥ—by the modes; karmāṇi—activities; sarvaśaḥ—all kinds of; ahaṅkāra-vimūḍha—bewildered by false ego; ātmā—the spirit soul; kartā—doer; aham—I; iti—thus; manyate—thinks.\n\n
+					The bewildered spirit soul, under the influence of the three modes of material nature, thinks himself to be the doer of activities, which are in actuality carried out by nature.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="3.37\n
+śrī-bhagavān uvāca\n
+kāma eṣa krodha eṣa\n
+rajo-guṇa-samudbhavaḥ\n
+mahāśano mahā-pāpmā\n
+viddhy enam iha vairiṇ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="śrī bhagavān uvāca—the Personality of Godhead said; kāmaḥ—lust; eṣaḥ—all these; krodhaḥ—wrath; eṣaḥ—all these; rajo-guṇa—the mode of passion; samudbhavaḥ—born of; mahā-śanaḥ—all-devouring; mahā-pāpmā—greatly sinful; viddhi—know; enam—this; iha—in the material world; vairiṇam—greatest enemy.
+\n\nThe Blessed Lord said: It is lust only, Arjuna, which is born of contact with the material modes of passion and later transformed into wrath, and which is the all-devouring, sinful enemy of this world.
+\n\n"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

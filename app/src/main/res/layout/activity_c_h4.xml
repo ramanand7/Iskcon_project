@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 4"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.1\n
+śrī-bhagavān uvāca\n
+imaṁ vivasvate yogaṁ\n
+proktavān aham avyayam\n
+vivasvān manave prāha\n
+manur ikṣvākave ’bravīt\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="śrī bhagavān uvāca—the Supreme Personality of Godhead said; imam—this; vivasvate—unto the sun-god; yogam—the science of one’s relationship to the Supreme; proktavān—instructed; aham—I; avyayam—imperishable; vivasvān—Vivasvān (the sun-god’s name); manave—unto the father of mankind (of the name Vaivasvata); prāha—told; manuḥ—the father of mankind; ikṣvākave—unto King Ikṣvāku; abravīt—said.
+\n\nThe Blessed Lord said: I instructed this imperishable science of yoga to the sun-god, Vivasvān, and Vivasvān instructed it to Manu, the father of mankind, and Manu in turn instructed it to Ikṣvāku.
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.2\n
+evaṁ paramparā-prāptam\n
+imaṁ rājarṣayo viduḥ\n
+sa kāleneha mahatā\n
+yogo naṣṭaḥ parantapa\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="evam—thus; paramparā—disciplic succession; prāptam—received; imam—this science; rājarṣayaḥ—the saintly kings; viduḥ—understood; saḥ—that knowledge; kālena—in the course of time; iha—in this world; mahatā—by great; yogaḥ—the science of one’s relationship with the Supreme; naṣṭaḥ—scattered; parantapa—O Arjuna, subduer of the enemies.
+\n\nThis supreme science was thus received through the chain of disciplic succession, and the saintly kings understood it in that way. But in course of time the succession was broken, and therefore the science as it is appears to be lost.
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.3\n
+sa evāyaṁ mayā te ’dya\n
+yogaḥ proktaḥ purātanaḥ\n
+bhakto ’si me sakhā ceti\n
+rahasyaṁ hy etad uttamam\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nsaḥ—the same ancient; eva—certainly; ayam—this; mayā—by Me; te—unto you; adya—today; yogaḥ—the science of yoga; proktaḥ—spoken; purātanaḥ—very old; bhaktaḥ—devotee; asi—you are; me—My; sakhā—friend; ca—also; iti—therefore; rahasyam—mystery; hi—certainly; etat—this; uttamam—transcendental.
+\n\nThat very ancient science of the relationship with the Supreme is today told by Me to you because you are My devotee as well as My friend; therefore you can understand the transcendental mystery of this science.
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.6\n
+ajo ’pi sann avyayātmā\n
+bhūtānām īśvaro ’pi san\n
+prakṛtiṁ svām adhiṣṭhāya\n
+sambhavāmy ātma-māyayā\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ajaḥ—unborn; api—although; san—being so; avyaya—without deterioration; ātmā—body; bhūtānām—all those who are born; īśvaraḥ—the Supreme Lord; api—although; san—being so; prakṛtim—transcendental form; svām—of Myself; adhiṣṭhāya—being so situated; sambhavāmi—I do incarnate; ātma-māyayā—by My internal energy.
+\n\nAlthough I am unborn and My transcendental body never deteriorates, and although I am the Lord of all sentient beings, I still appear in every millennium in My original transcendental form.
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.7\n
+yadā yadā hi dharmasya\n
+glānir bhavati bhārata\n
+abhyutthānam adharmasya\n
+tadātmānaṁ sṛjāmy aham\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yadā—whenever; yadā—wherever; hi—certainly; dharmasya—of religion; glāniḥ—discrepancies; bhavati—manifested, becomes; bhārata—O descendant of Bharata; abhyutthānam—predominance; adharmasya—of irreligion; tadā—at that time; ātmānam—self; sṛjāmi—manifest; aham—I.
+\n\nWhenever and wherever there is a decline in religious practice, O descendant of Bharata, and a predominant rise of irreligion—at that time I descend Myself.
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.8\n
+paritrāṇāya sādhūnāṁ\n
+vināśāya ca duṣkṛtām\n
+dharma-saṁsthāpanārthāya\n
+sambhavāmi yuge yuge\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="paritrāṇāya—for the deliverance; sādhūnām—of the devotees; vināśāya—for the annihilation; ca—also; duṣkṛtām—of the miscreants; dharma—principles of religion; saṁsthāpana-arthāya—to reestablish; sambhavāmi—I do appear; yuge—millennium; yuge—after millennium.
+\n\nIn order to deliver the pious and to annihilate the miscreants, as well as to reestablish the principles of religion, I advent Myself millennium after millennium.
+\n\n"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.9\n
+janma karma ca me divyam\n
+evaṁ yo vetti tattvataḥ\n
+tyaktvā dehaṁ punar janma\n
+naiti mām eti so ’rjuna\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="janma—birth; karma—work; ca—also; me—of Mine; divyam—transcendental; evam—like this; yaḥ—anyone who; vetti—knows; tattvataḥ—in reality; tyaktvā—leaving aside; deham—this body; punaḥ—again; janma—birth; na—never; eti—does attain; mām—unto Me; eti—does attain; saḥ—he; arjuna—O Arjuna.\n\n
+					One who knows the transcendental nature of My appearance and activities does not, upon leaving the body, take his birth again in this material world, but attains My eternal abode, O Arjuna.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.10\n
+vīta-rāga-bhaya-krodhā\n
+man-mayā mām upāśritāḥ\n
+bahavo jñāna-tapasā\n
+pūtā mad-bhāvam āgatāḥ\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nvīta—freed from; rāga—attachment; bhaya—fear; krodhāḥ—anger; mat-mayā—fully in Me; mām—unto Me; upāśritāḥ—being fully situated; bahavaḥ—many; jñāna—knowledge; tapasā—by penance; pūtāḥ—being purified; mat-bhāvam—transcendental love for Me; āgatāḥ—attained.\n\n
+					Being freed from attachment, fear and anger, being fully absorbed in Me and taking refuge in Me, many, many persons in the past became purifled by knowledge of Me—and thus they all attained transcendental love for Me.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.11\n
+ye yathā māṁ prapadyante\n
+tāṁs tathaiva bhajāmy aham\n
+mama vartmānuvartante\n
+manuṣyāḥ pārtha sarvaśaḥ\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nye—all of them; yathā—as; mām—unto Me; prapadyante—surrender; tān—unto them; tathā—so; eva—certainly; bhajāmi—do I reward; aham—I; mama—My; vartma—path; anuvartante—do follow; manuṣyāḥ—all men; pārtha—O son of Pṛthā; sarvaśaḥ—in all respects.\n\n
+					All of them—as they surrender unto Me—I reward accordingly. Everyone follows My path in all respects, O son of Pṛthā.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="4.13\n
+cātur-varṇyaṁ mayā sṛṣṭaṁ\n
+guṇa-karma-vibhāgaśaḥ\n
+tasya kartāram api māṁ\n
+viddhy akartāram avyayam\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="cātur-varṇyam—the four divisions of human society; mayā—by Me; sṛṣṭam—created; guṇa—quality; karma—work; vibhāgaśaḥ—in terms of division; tasya—of that; kartāram—the father; api—although; mām—Me; viddhi—you may know; akartāram—as the non-doer; avyayam—being unchangeable.\n\n
+According to the three modes of material nature and the work ascribed to them, the four divisions of human society were created by Me. And, although I am the creator of this system, you should know that I am yet the non-doer, being unchangeable.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+4.34\n
+tad viddhi praṇipātena\n
+paripraśnena sevayā\n
+upadekṣyanti te jñānaṁ\n
+jñāninas tattva-darśinaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="tat—that knowledge of different sacrifices; viddhi—try to understand; praṇipātena—by approaching a spiritual master; paripraśnena—by submissive inquiries; sevayā—by the rendering of service; upadekṣyanti—initiate; te—unto you; jñānam—knowledge; jñāninaḥ—the self-realized; tattva—truth; darśinaḥ—the seers.
+\n\nJust try to learn the truth by approaching a spiritual master. Inquire from him submissively and render service unto him. The self-realized soul can impart knowledge unto you because he has seen the truth. "
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

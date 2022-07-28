@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH14">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 14"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="14.4\n
+sarva-yoniṣu kaunteya\n
+mūrtayaḥ sambhavanti yāḥ\n
+tāsāṁ brahma mahad yonir\n
+ahaṁ bīja-pradaḥ pitā\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sarva-yoniṣu—in all species of life; kaunteya—O son of Kuntī; mūrtayaḥ—forms; sambhavanti—as they appear; yāḥ—which; tāsām—all of them; brahma—supreme; mahat yoniḥ—the source of birth in the material substance; aham—Myself; bīja-pradaḥ—seed-giving; pitā—father.\n\n
+It should be understood that all species of life, O son of Kuntī, are made possible by birth in this material nature, and that I am the seed-giving father.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="14.26\n
+māṁ ca yo ’vyabhicāreṇa\n
+bhakti-yogena sevate\n
+sa guṇān samatītyaitān\n
+brahma-bhūyāya kalpate\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mām—unto Me; ca—also; yaḥ—person; avyabhicāreṇa—without fail; bhakti-yogena—by devotional service; sevate—renders service; saḥ—he; guṇān—all the modes of material nature; samatītya—transcending; etān—all this; brahma-bhūyāya—to be elevated on the Brahman platform; kalpate—is considered.\n\n
+One who engages in full devotional service, who does not fall down in any circumstance, at once transcends the modes of material nature and thus comes to the level of Brahman.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="14.27\n
+brahmaṇo hi pratiṣṭhāham\n
+amṛtasyāvyayasya ca\n
+śāśvatasya ca dharmasya\n
+sukhasyaikāntikasya ca\n\n
+"
+                    />
+
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+brahmaṇaḥ—of the impersonal brahmajyoti; hi—certainly; pratiṣṭhā—the rest; aham—I am; amṛtasya—of the imperishable; avyayasya—immortal; ca—also; śāśvatasya—of eternal; ca—and; dharmasya—of the constitutional position; sukhasya—happiness; aikāntikasya—ultimate; ca—also.\n\n
+And I am the basis of the impersonal Brahman, which is the constitutional position of ultimate happiness, and which is immortal, imperishable and eternal.\n\n
+
+
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

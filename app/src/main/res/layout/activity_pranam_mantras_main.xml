@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/yellow_gradient_background"
+    tools:context=".fragments.home.pranamMantras.PranamMantras">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <Button
+                android:id="@+id/SrīGuruPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sri_guru_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/SrīRūpaPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sri_rupa_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <Button
+                android:id="@+id/ŚrīlaPrabhupādaPraṇati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/srila_prabhupada_pranati"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace" />
+            <Button
+                android:id="@+id/SrīlaBhaktisiddhāntaSarasvatīPraṇati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/srila_bhaktisiddhanta_sarasvati_pranati"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/SrīlaGaurakiśoraPraṇati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/srila_gaurakisora_pranati"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/SrīlaBhaktivinodaPraṇati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/srila_bhaktivinoda_pranati"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <Button
+                android:id="@+id/SrīVaiṣṇavaPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sri_vaisnava_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <Button
+                android:id="@+id/ŚrīGaurāṅgaPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/caitanya_mahaprabhu_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/SrīPañcatattvaPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sri_panca_tattva_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/SrīKṛṣṇaPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sri_krishna_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <Button
+                android:id="@+id/SrīRādhāPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/srimati_radhamati_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/SambandhādhidevaPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sambandhadhideva_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/AbhidheyādhidevaPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abhidheydhideva_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <Button
+                android:id="@+id/PrayojanādhidevaPraṇāma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prayojanadhideva_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace" />
+
+
+            <Button
+                android:id="@+id/PañcatattvaMahāmantra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/panca_tattva_mantra"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <Button
+                android:id="@+id/HareKṛṣṇaMahāmantra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hare_k_a_mahamantra"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/NityanandaPrabhuPranamaMantra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nityananda_prabhu_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <Button
+                android:id="@+id/SriKrishnaPranamaMantra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sri_krishna_pranama"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace" />
+            <Button
+                android:id="@+id/LordBalaramaPranamaMantra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/balarama_pranama"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/LorJagannathaPranamaMantra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lord_jagannatha_pranam"
+                android:background="@drawable/rounded_corners"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"                android:textStyle="bold"
+                android:typeface="monospace" />
+    </LinearLayout>
+
+
+</ScrollView>

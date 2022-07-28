@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.prayers.PrasadPrayer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prasad Prayers"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Maha-prasade govinde
+\nnama-brahmani vaisnave
+\nsvalpa-punya-vatam rajan
+\nvisvaso naiva jayate
+\n\n
+sarira abidya-jal, jodendriya tahe kal,
+\njibe phele bisaya-sagore
+\nta'ra madhye jihva ati, lobhamoy sudurmati
+\nta'ke jeta kathina somsare
+\n\n
+krsna baro doyamoy, karibare jihva jay,
+\nswa-prasad-anna dilo bhai
+\nsei annamrta khao, radha-krsna-guna gao,
+\npreme dako caitanya-nitai
+\n\n"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+
+TRANSLATION
+\n\n
+O king, for those who have amassed very few pious activities, their faith in maha-prasada, in Sri Govinda, in the Holy Name and in the Vaisnava is never born.
+\n
+O brothers! This material body is a network of ignorance, and the senses are one's deadly enemies, for they throw the soul into the ocean of material sense enjoyment. Among the senses, the tongue is the most voracious and verily wicked; it is very difficult to conquer the tongue in this world.
+\n
+O brothers! Lord Krsna is very merciful-just to control the tongue He has given us the remnants of His own food! Now please eat these nectarean grains while singing the glories of Their Lordships Sri Sri Radha and Krsna, and in love call out Caitanya! Nitai!\n
+
+                "/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

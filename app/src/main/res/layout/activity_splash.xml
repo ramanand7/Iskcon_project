@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/prabhupada_ji" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:alpha="0.7"
+        android:fontFamily="monospace"
+        android:text="@string/iyf_rohini"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        tools:text="@string/splash_screen_message" />
+
+</RelativeLayout>

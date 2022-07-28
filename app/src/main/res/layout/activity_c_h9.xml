@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH9">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 9"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.2\n
+rāja-vidyā rāja-guhyaṁ\n
+pavitram idam uttamam\n
+pratyakṣāvagamaṁ dharmyaṁ\n
+su-sukhaṁ kartum avyayam\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="rāja-vidyā—the king of education; rāja-guhyam—the king of confidential knowledge; pavitram—the purest; idam—this; uttamam—transcendental; pratyakṣa—directly experienced; avagamam—understood; dharmyam—the principle of religion; susukham—very happy; kartum—to execute; avyayam—everlasting.\n\n
+This knowledge is the king of education, the most secret of all secrets. It is the purest knowledge, and because it gives direct perception of the self by realization, it is the perfection of religion. It is everlasting, and it is joyfully performed.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.4\n
+mayā tatam idaṁ sarvaṁ\n
+jagad avyakta-mūrtinā\n
+mat-sthāni sarva-bhūtāni\n
+na cāhaṁ teṣv avasthitaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mayā—by Me; tatam—spread; idam—all these manifestations; sarvam—all; jagat—cosmic manifestation; avyakta-mūrtinā—unmanifested form; mat-sthāni—unto Me; sarva-bhūtāni—all living entities; na—not; ca—also; aham—I; teṣu—in them; avasthitaḥ—situated.\n\n
+By Me, in My unmanifested form, this entire universe is pervaded. All beings are in Me, but I am not in them.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.10\n
+mayādhyakṣeṇa prakṛtiḥ\n
+sūyate sa-carācaram\n
+hetunānena kaunteya\n
+jagad viparivartate\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mayā—by Me; adhyakṣeṇa—by superintendence; prakṛtiḥ—material nature; sūyate—manifest; sa—with; carācaram—moving and nonmoving; hetunā—for this reason; anena—this; kaunteya—O son of Kuntī; jagat—the cosmic manifestation; viparivartate—is working.\n\n
+This material nature is working under My direction, O son of Kuntī, and it is producing all moving and unmoving beings. By its rule this manifestation is created and annihilated again and again.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.11\n
+avajānanti māṁ mūḍhā\n
+mānuṣīṁ tanum āśritam\n
+paraṁ bhāvam ajānanto\n
+mama bhūta-maheśvaram\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="avajānanti—deride; mām—Me; mūḍhāḥ—foolish men; mānuṣīm—in a human form; tanum—body; āśritam—assuming; param—transcendental; bhāvam—nature; ajānantaḥ—not knowing; mama—Mine; bhūta—everything that be; maheśvaram—supreme proprietor.\n\n
+Fools deride Me when I descend in the human form. They do not know My transcendental nature and My supreme dominion over all that be.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.12\n
+moghāśā mogha-karmāṇo\n
+mogha-jñānā vicetasaḥ\n
+rākṣasīm āsurīṁ caiva\n
+prakṛtiṁ mohinīṁ śritāḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="moghāśāḥ—baffled hope; mogha-karmāṇaḥ—baffled in fruitive activities; mogha-jñānāḥ—baffled in knowledge; vicetasaḥ—bewildered; rākṣasīm—demonic; āsurīm—atheistic; ca—and; eva—certainly; prakṛtim—nature; mohinīm—bewildering; śritāḥ—taking shelter of.\n\n
+Those who are thus bewildered are attracted by demonic and atheistic views. In that deluded condition, their hopes for liberation, their fruitive activities, and their culture of knowledge are all defeated.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.13\n
+mahātmānas tu māṁ pārtha\n
+daivīṁ prakṛtim āśritāḥ\n
+bhajanty ananya-manaso\n
+jñātvā bhūtādim avyayam\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mahātmānaḥ—the great souls; tu—but; mām—unto Me; pārtha—O son of Pṛthā; daivīm—divine; prakṛtim—nature; āśritāḥ—taken shelter of; bhajanti—render service; ananya-manasaḥ—without deviation of the mind; jñātvā—knowing; bhūta—creation; ādim—original; avyayam—inexhaustible.\n\n
+O son of Pṛthā, those who are not deluded, the great souls, are under the protection of the divine nature. They are fully engaged in devotional service because they know Me as the Supreme Personality of Godhead, original and inexhaustible.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.14\n
+satataṁ kīrtayanto māṁ\n
+yatantaś ca dṛḍha-vratāḥ\n
+namasyantaś ca māṁ bhaktyā\n
+nitya-yuktā upāsate\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="satatam—always; kīrtayantaḥ—chanting; mām—Me; yatantaḥ ca—fully endeavoring also; dṛḍha-vratāḥ—with determination; namasyantaḥ ca—offering obeisances; mām—unto Me; bhaktyā—in devotion; nitya-yuktāḥ—perpetually engaged; upāsate—worship.\n\n
+Always chanting My glories, endeavoring with great determination, bowing down before Me, these great souls perpetually worship Me with devotion.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.22\n
+ananyāś cintayanto māṁ\n
+ye janāḥ paryupāsate\n
+teṣāṁ nityābhiyuktānāṁ\n
+yoga-kṣemaṁ vahāmy aham\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ananyāḥ—no other; cintayantaḥ—concentrating; mām—unto Me; ye—who; janāḥ—persons; paryupāsate—properly worship; teṣām—their; nitya—always abhiyuktānām—fixed in devotion; yoga-kṣemam—requirements; vahāmi—carry; aham—I.\n\n
+But those who worship Me with devotion, meditating on My transcendental form—to them I carry what they lack and preserve what they have.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.25\n
+yānti deva-vratā devān\n
+pitṝn yānti pitṛ-vratāḥ\n
+bhūtāni yānti bhūtejyā\n
+yānti mad-yājino ’pi mām\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yānti—achieve; deva-vratāḥ—worshipers of demigods; devān—to demigods; pitṝn—to ancestors; yānti—go; pitṛ-vratāḥ—worshipers of ancestors; bhūtāni—to ghosts and spirits; yānti—go; bhūtejyāḥ—worshipers of ghosts and spirits; yānti—go; mat—My; yājinaḥ—devotees; api—also; mām—unto Me.\n\n
+Those who worship the demigods will take birth among the demigods; those who worship ghosts and spirits will take birth among such beings; those who worship ancestors go to the ancestors; and those who worship Me will live with Me.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.26\n
+patraṁ puṣpaṁ phalaṁ toyaṁ\n
+yo me bhaktyā prayacchati\n
+tad ahaṁ bhakty-upahṛtam\n
+aśnāmi prayatātmanaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="patram—a leaf; puṣpam—a flower; phalam—a fruit; toyam—water; yaḥ—whoever; me—unto Me; bhaktyā—with devotion; prayacchati—offers; tat—that; aham—I; bhakti-upahṛtam—offered in devotion; aśnāmi—accept; prayata-ātmanaḥ—of one in pure consciousness.\n\n
+If one offers Me with love and devotion a leaf, a flower, fruit or water, I will accept it.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.27\n
+yat karoṣi yad aśnāsi\n
+yaj juhoṣi dadāsi yat\n
+yat tapasyasi kaunteya\n
+tat kuruṣva mad-arpaṇam\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yat—what; karoṣi—you do; yat—whatever; aśnāsi—you eat; yat—whatever; juhoṣi—you offer; dadāsi—you give away; yat—whatever; yat—whatever; tapasyasi—austerities you perform; kaunteya—O son of Kuntī; tat—that; kuruṣva—make; mat—unto Me; arpaṇam—offering.\n\n
+O son of Kuntī, all that you do, all that you eat, all that you offer and give away, as well as all austerities that you may perform, should be done as an offering unto Me.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.29\n
+samo ’haṁ sarva-bhūteṣu\n
+na me dveṣyo ’sti na priyaḥ\n
+ye bhajanti tu māṁ bhaktyā\n
+mayi te teṣu cāpy aham\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="samaḥ—equally disposed; aham—I; sarva-bhūteṣu—to all living entities; na—no one; me—Mine; dveṣyaḥ—hateful; asti—is; na—nor; priyaḥ—dear; ye—those; bhajanti—render transcendental service; tu—yet; mām—unto Me; bhaktyā—in devotion; mayi—unto Me; te—such persons; teṣu—in them; ca—also; api—certainly; aham—I.\n\n
+I envy no one, nor am I partial to anyone. I am equal to all. But whoever renders service unto Me in devotion is a friend, is in Me, and I am also a friend to him.\n\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.30\n
+api cet su-durācāro\n
+bhajate mām ananya-bhāk\n
+sādhur eva sa mantavyaḥ\n
+samyag vyavasito hi saḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="api—in spite of; cet—although; sudurācāraḥ—one committing the most abominable actions; bhajate—engaged in devotional service; mām—unto Me; ananya-bhāk—without deviation; sādhuḥ—saint; eva—certainly; saḥ—he; mantavyaḥ—to be considered; samyak—completely; vyavasitaḥ—situated; hi—certainly; saḥ—he.\n\n
+Even if one commits the most abominable actions, if he is engaged in devotional service, he is to be considered saintly because he is properly situated.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.32\n
+māṁ hi pārtha vyapāśritya\n
+ye ’pi syuḥ pāpa-yonayaḥ\n
+striyo vaiśyās tathā śūdrās\n
+te ’pi yānti parāṁ gatim\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mām—unto Me; hi—certainly; pārtha—O son of Pṛthā; vyapāśrītya—particularly taking shelter; ye—anyone; api—also; syuḥ—becomes; pāpa-yonayaḥ—born of a lower family; striyaḥ—women; vaiśyāḥ—mercantile people; tathā—also; śūdrāḥ—lower class men; te api—even they; yānti—go; parām—supreme; gatim—destination.\n\n
+O son of Pṛthā, those who take shelter in Me, though they be of lower birth—women, vaiśyas [merchants], as well as śūdras [workers]—can approach the supreme destination.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="9.34\n
+man-manā bhava mad-bhakto\n
+mad-yājī māṁ namaskuru\n
+mām evaiṣyasi yuktvaivam\n
+ātmānaṁ mat-parāyaṇaḥ\n\n
+"
+                    />
+
+
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mat-manāḥ—always thinking of Me; bhava—become; mat—My; bhaktaḥ—devotee; mat—My; yājī—worshiper; mām—unto Me; namaskuru—offer obeisances; mām—unto Me; eva—completely; eṣyasi—come; yuktvā evam—being absorbed; ātmānam—your soul; mat-parāyaṇaḥ—devoted to Me.\n\n
+Engage your mind always in thinking of Me, offer obeisances and worship Me. Being completely absorbed in Me, surely you will come to Me." />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

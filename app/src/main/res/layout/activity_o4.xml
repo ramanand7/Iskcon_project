@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.pranamMantras.o4">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Srīla Bhaktisiddhānta Sarasvatī Praṇati"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+nama om vishnu-padaya \n
+krishna-preshthaya bhu-tale\n
+srimate bhaktisiddhanta-\n
+sarasvatiti namine\n
+sri-varshabhanavi-devi-\n
+dayitaya kripabdhaye\n
+krishna-sambandha-vijnana-\n
+dayine prabhave namah\n
+madhuryojjvala-premadhya-\n
+sri-rupanuga-bhaktida\n
+sri-gaura-karuna-sakti-\n
+vigrahaya namo ’stu te\n
+namas te gaura-vani-\n
+sri-murtaye dina-tarine\n
+rupanuga-viruddhapasiddhanta-\n
+dhvanta-harine\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my respectful obeisances unto His Divine Grace Bhaktisiddhanta Sarasvati, who is very dear to Lord Krishna, having taken shelter at His lotus feet.\n
+
+I offer my respectful obeisances to Sri Varshabhanavi-devi-dayita dasa [another name of Srila Bhaktisiddhanta Sarasvati], who is favored by Srimati Radharani and who is the ocean of transcendental mercy and the deliverer of the science of Krishna.\n
+I offer my respectful obeisances unto you, the personified energy of Sri Caitanya’s mercy, who deliver devotional service which is enriched with conjugal love of Radha and Krishna, coming exactly in the line of revelation of Srila Rupa Gosvami.\n
+I offer my respectful obeisances unto you, who are the personified teachings of Lord Caitanya. You are the deliverer of the fallen souls. You do not tolerate any statement which is against the teachings of devotional service enunciated by Srila Rupa Gosvami.\n
+ Bhajan by Bhaktisiddhanta Saraswati Thakura\n
+\n
+
+
+"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

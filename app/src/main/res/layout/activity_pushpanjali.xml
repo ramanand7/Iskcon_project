@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.prayers.Pushpanjali">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pushpanjali"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Om ajnana-timirandhasya \n
+jnananjana-salakaya\n
+cakshur unmilitam yena \n
+tasmai sri-gurave namah
+\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my respectful obeisances unto my spiritual master, who has opened my eyes, which were blinded by the darkness of ignorance, with the torchlight of knowledge.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+sri-caitanya-mano-’bhishtam \n
+sthapitam yena bhu-tale\n
+svayam rupah kada mahyam\n
+dadati sva-padantikam\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When will Srila Rupa Gosvami Prabhupada, who has established within this material world the mission to fulfill the desire of Lord Caitanya, give me shelter under his lotus feet?
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+vande ‘ham sri-guroh sri-yuta-pada-\n
+kamalam sri-gurun vaishnavams ca\n
+sri-rupam sagrajatam saha-gana-\n
+raghunathanvitam tam sa jivam\n
+sadvaitam savadhutam parijana-\n
+sahitam krishna-caitanya-devam\n
+sri-radha-krishna-padan saha-gana-\n
+lalita- sri-visakhanvitams ca\n
+
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my respectful obeisances unto the lotus feet of my spiritual master and of all the other preceptors on the path of devotional service. I offer my respectful obeisances unto all the Vaishnavas and unto the six Gosvamis, including Srila Rupa Gosvami, Srila Sanatana Gosvami, Raghunatha dasa Gosvami, Jiva Gosvami, and their associates. I offer my respectful obeisances unto Advaita Acarya Prabhu, Sri Nityananda Prabhu, Sri Caitanya Mahaprabhu, and all His devotees, headed by Srivasa Thakura. I then offer my respectful obeisances unto the lotus feet of Lord Krishna, Srimati Radharani, and all the gopis, headed by Lalita and Visakha.\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+
+Srila Prabhupada Pranati\n
+nama om vishnu-padaya \n
+krishna-preshthaya bhu-tale\n
+srimate bhaktivedanta-\n
+svamin iti namine\n
+namas te sarasvate deve \n
+gaura-vani-pracarine\n
+nirvisesha-sunyavadi-\n
+pascatya-desa-tarine\n
+"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+I offer my respectful obeisances unto His Divine Grace A. C. Bhaktivedanta Swami Prabhupada, who is very dear to Lord Krishna, having taken shelter at His lotus feet.Our respectful obeisances are unto you, O spiritual master, servant of Bhaktisiddhanta Saraswati Goswami. You are kindly preaching the message of Lord Chaitanyadeva and delivering the Western countries, which are filled with impersonalism and voidism.
+\n\n
+"/>
+
+
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Srila Bhaktisiddhanta Sarasvati Pranati\n
+
+nama om vishnu-padaya \n
+krishna-preshthaya bhu-tale\n
+srimate bhaktisiddhanta-\n
+sarasvatiti namine\n
+sri-varshabhanavi-devi-\n
+dayitaya kripabdhaye\n
+krishna-sambandha-vijnana-\n
+dayine prabhave namah\n
+madhuryojjvala-premadhya-\n
+sri-rupanuga-bhaktida\n
+sri-gaura-karuna-sakti-\n
+vigrahaya namo ’stu te\n
+namas te gaura-vani-\n
+sri-murtaye dina-tarine\n
+rupanuga-viruddhapasiddhanta-\n
+dhvanta-harine\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my respectful obeisances unto His Divine Grace Bhaktisiddhanta Sarasvati, who is very dear to Lord Krishna, having taken shelter at His lotus feet.\n
+
+I offer my respectful obeisances to Sri Varshabhanavi-devi-dayita dasa [another name of Srila Bhaktisiddhanta Sarasvati], who is favored by Srimati Radharani and who is the ocean of transcendental mercy and the deliverer of the science of Krishna.\n
+I offer my respectful obeisances unto you, the personified energy of Sri Caitanya’s mercy, who deliver devotional service which is enriched with conjugal love of Radha and Krishna, coming exactly in the line of revelation of Srila Rupa Gosvami.\n
+I offer my respectful obeisances unto you, who are the personified teachings of Lord Caitanya. You are the deliverer of the fallen souls. You do not tolerate any statement which is against the teachings of devotional service enunciated by Srila Rupa Gosvami.\n
+ Bhajan by Bhaktisiddhanta Saraswati Thakura\n
+\n
+
+
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Srila Gaurakisora Pranati:\n
+namo gaura-kisoraya\n
+sakshad-vairagya-murtaye\n
+vipralambha-rasambhode\n
+padambujaya te namah\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my respectful obeisances unto Gaura-kisora dasa Babaji Maharaja [the spiritual master of Srila Bhaktisiddhanta Sarasvati], who is renunciation personified. He is always merged in a feeling of separation and intense love of Krishna.
+
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Srila Bhaktivinoda Pranati:\n
+namo bhaktivinodaya\n
+sac-cid-ananda-namine\n
+gaura-sakti-svarupaya\n
+rupanuga-varaya te\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my respectful obeisances unto Saccidananda Bhaktivinoda, who is transcendental energy of Caitanya Mahaprabhu. He is a strict follower of the Gosvamis, headed by Srila Rupa.
+					\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Srila Jagannatha Pranati:\n
+gauravirbhava-bhumes tvam\n
+nirdeshta saj-jana-priyah\n
+vaishnava-sarvabhaumah\n
+shri-jagannathaya te namah\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my respectful obeisances to Jagannatha dasa Babaji, who is respected by the entire Vaishnava community and who discovered the place where Lord Caitanya appeared.
+					\n\n"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Vaishnava pranam:\n
+vancha-kalpatarubhyas ca \n
+kripa-sindhubhya eva ca\n
+patitanam pavanebhyo \n
+vaishnavebhyo namo namah\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my respectful obeisances unto all the Vaishnava devotees of the Lord. They are just like desire trees who can fulfill the desires of everyone, and they are full of compassion for the fallen conditioned souls.
+\n\n
+"
+                    />
+
+
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Sri Gauranga Pranam:\n
+namo maha-vadanyaya \n
+krishna-prema-pradaya te\n
+krishnaya krishna-caitanya-\n
+namne gaura-tvishe namah\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="O most munificent incarnation! You are Krishna Himself appearing as Sri Krishna Caitanya Mahaprabhu. You have assumed the golden color of Srimati Radharani, and You are widely distributing pure love of Krishna. We offer our respectful obeisances unto You.
+\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Sri Panca-tattva Pranam\n
+panca-tattvatmakam krishnam\n
+bhakta-rupa-svarupakam\n
+bhaktavataram bhaktakhyam\n
+namami bhakta-saktikam\n
+\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my obeisances unto the Supreme Lord, Kirishna, who is nondifferent from His features as a devotee, devotional incarnation, manifestation, pure devotee, and devotional energy.
+					\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Sri Krishna Pranam:\n
+he krishna karuna-sindho \n
+dina-bandho jagat-pate\n
+gopesa gopika-kanta \n
+radha-kanta namo ’stu te\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+O my dear Krishna, ocean of mercy, You are the friend of the distressed and the source of creation. You are the master of the cowherdmen and the lover of the gopis, especially Radharani. I offer my respectful obeisances unto You.
+
+\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Sambandhadhideva Pranam:\n
+jayatam suratau pangor \n
+mama manda-mater gati\n
+mat-sarvasva-padambhojau \n
+radha-madana-mohanau\n"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Glory to the all-merciful Radha and Madana-mohana! I am lame and ill advised, yet They are my directors, and Their lotus feet are everything to me.
+					\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Abhidheyadhideva Pranam:\n
+divyad-vrindaranya-kalpa-drumadhah\n
+srimad-ratnagara-simhasana-sthau\n
+srimad-radha-srila-govinda-devau\n
+preshthalibhih sevyamanau smarami\n
+
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="In a temple of jewels in Vrindavana, underneath a desire tree, Sri Sri Radha-Govinda, served by Their most confidential associates, sit upon an effulgent throne. I offer my most humble obeisances unto Them.
+					\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Prayojanadhideva Pranam:\n
+sriman rasa-rasarambhi \n
+vamsi-vata-tata-sthitah\n
+karshan venu-svanair gopir \n
+gopinathah sriye ’stu nah\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sri Srila Gopinatha, who originated the transcendental mellow of the rasa dance, stands on the shore in Vamsivata and attracts the attention of the cowherd damsels with the sound of His celebrated flute. May they all confer upon us their benediction.
+					\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+Srimati Radharani Pranam:\n
+tapta-kancana-gaurangi\n
+radhe vrindavanesvari\n
+vrishabhanu-sute devi \n
+Pranammi hari-priye\n
+
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I offer my respects to Radharani, whose bodily complexion is like molten gold and who is the Queen of Vrindavana. You are the daughter of King Vrisabhanu, and You are very dear to Lord Krishna.
+\n\n
+
+
+"
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="
+
+\n
+Panca-tattva Maha-mantra:\n
+(jaya) sri-krishna-caitanya \n
+prabhu nityananda\n
+sri-advaita gadadhara\n
+srivasadi-gaura-bhakta-vrinda\n\n
+
+
+Hare Krishna Hare Krishna\n Krishna Krishn Hare Hare\n
+Hare Rama Hare Rama\n Rama Rama Hare Hare\n
+\n
+
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

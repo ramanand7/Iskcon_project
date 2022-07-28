@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.krsna.rohini_iskcon">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".fragments.videos.youtube.YoutubePlayActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.krsna.rohini_iskcon.DeityImageActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".fragments.books.PdfViewActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.krsna.rohini_iskcon.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.krsna.rohini_iskcon.fragments.home.aartis.AartiActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.krsna.rohini_iskcon.fragments.home.prayers.PrayersMain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.PranamMantras"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.ShlokasMain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.krsna.rohini_iskcon.fragments.home.aartis.AartiDisplayActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o20" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o19" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o18" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o17" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o15" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o16" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o14" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o13" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o12" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o11" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o10" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o9" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o8" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o7" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o6" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o4" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o5" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o3" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o2" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.pranamMantras.o1" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH18" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH17" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH16" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH15" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH14" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH13" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH12" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH11" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH10" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH9" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH8" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH7" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH6" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH5" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH4" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH3" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH2" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.shlokas.CH1" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.prayers.Pushpanjali" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.prayers.PrasadPrayer" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.prayers.MangalaCarana" />
+        <activity android:name="com.krsna.rohini_iskcon.fragments.home.prayers.BhogaOffering" />
+
+    </application>
+
+</manifest>

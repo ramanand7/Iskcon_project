@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH15">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 15"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="15.5\n
+nirmāna-mohā jita-saṅga-doṣā\n
+adhyātma-nityā vinivṛtta-kāmāḥ\n
+dvandvair vimuktāḥ sukha-duḥkha-saṁjñair\n
+gacchanty amūḍhāḥ padam avyayaṁ tat\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="nir—without; māna—respect; mohāḥ—illusion; jita—having conquered; saṅga—association; doṣāḥ—faulty; adhyātma—spiritual; nityāḥ—eternity; vinivṛtta—associated; kāmāḥ—lusts; dvandvaiḥ—with duality; vimuktāḥ—liberated; sukha-duḥkha—happiness and distress; saṁjñaiḥ—named; gacchanti—attains; amūḍhāḥ—unbewildered; padam—situation; avyayam—eternal; tat—that.\n\n
+One who is free from illusion, false prestige, and false association, who understands the eternal, who is done with material lust and is freed from the duality of happiness and distress, and who knows how to surrender unto the Supreme Person, attains to that eternal kingdom.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="15.6\n
+na tad bhāsayate sūryo\n
+na śaśāṅko na pāvakaḥ\n
+yad gatvā na nivartante\n
+tad dhāma paramaṁ mama\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="na—not; tat—that; bhāsayate—illuminates; sūryaḥ—sun; na—nor; śaśāṅkaḥ—the moon; na—nor; pāvakaḥ—fire, electricity; yat—where; gatvā—going; na—never; nivartante—comes back; tat dhāma—that abode; paramam—supreme; mama—My.\n\n
+That abode of Mine is not illumined by the sun or moon, nor by electricity. One who reaches it never returns to this material world.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="15.7\n
+mamaivāṁśo jīva-loke\n
+jīva-bhūtaḥ sanātanaḥ\n
+manaḥ-ṣaṣṭhānīndriyāṇi\n
+prakṛti-sthāni karṣati\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mama—My; eva—certainly; aṁśaḥ—fragmental particles; jīva-loke—world of conditional life; jīva-bhūtaḥ—the conditioned living entities; sanātanaḥ—eternal; manaḥ—mind; ṣaṣṭhāni—six; indriyāṇi—senses; prakṛti—material nature; sthāni—situated; karṣati—struggling hard.\n\n
+The living entities in this conditioned world are My eternal, fragmental parts. Due to conditioned life, they are struggling very hard with the six senses, which include the mind.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="15.15\n
+sarvasya cāhaṁ hṛdi sanniviṣṭo\n
+mattaḥ smṛtir jñānam apohanaṁ ca\n
+vedaiś ca sarvair aham eva vedyo\n
+vedānta-kṛd veda-vid eva cāham\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sarvasya—of all living beings; ca—and; aham—I; hṛdi—in the heart; sanniviṣṭaḥ—being situated; mattaḥ—from Me; smṛtiḥ—remembrance; jñānam—knowledge; apohanam ca—and forgetfulness; vedaiḥ—by the Vedas; ca—also; sarvaiḥ—all; aham—I am; eva—certainly; vedyaḥ—knowable; vedānta-kṛt—the compiler of the Vedānta; veda-vit—the knower of the Vedas; eva—certainly; ca—and; aham—I.\n\n
+I am seated in everyone’s heart, and from Me come remembrance, knowledge and forgetfulness. By all the Vedas am I to be known; indeed I am the compiler of Vedānta, and I am the knower of the Vedas.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="15.19\n
+yo mām evam asammūḍho\n
+jānāti puruṣottamam\n
+sa sarva-vid bhajati māṁ\n
+sarva-bhāvena bhārata\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yaḥ—anyone; mām—unto Me; evam—certainly; asammūḍhaḥ—without a doubt; jānāti—knows; puruṣottamam—the Supreme Personality of Godhead; saḥ—he; sarva-vit—knower of everything; bhajati—renders devotional service; mām—unto Me; sarva-bhāvena—in all respects; bhārata—O son of Bharata.\n\n
+Whoever knows Me as the Supreme Personality of Godhead, without doubting, is to be understood as the knower of everything, and he therefore engages himself in full devotional service, O son of Bharata\n\n
+"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

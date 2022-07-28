@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH18">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 18"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.42\n
+śamo damas tapaḥ śaucaṁ\n
+kṣāntir ārjavam eva ca\n
+jñānaṁ vijñānam āstikyaṁ\n
+brahma-karma svabhāva-jam\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="śamaḥ—peacefulness; damaḥ—self-control; tapaḥ—austerity; śaucam—purity; kṣāntiḥ—tolerance; ārjavam—honesty; eva—certainly; ca—and; jñānam—wisdom; vijñānam—knowledge; āstikyam—religiousness; brahma—of a brāhmaṇa; karma—duty; svabhāva-jam—born of his own nature.\n\n
+Peacefulness, self-control, austerity, purity, tolerance, honesty, wisdom, knowledge, and religiousness—these are the qualities by which the brāhmaṇas work.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.54\n
+brahma-bhūtaḥ prasannātmā\n
+na śocati na kāṅkṣati\n
+samaḥ sarveṣu bhūteṣu\n
+mad-bhaktiṁ labhate parām\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="brahma-bhūtaḥ—being one with the Absolute; prasanna-ātmā—fully joyful; na—never; śocati—laments; na—never; kāṅkṣati—desires; samaḥ—equally disposed; sarveṣu—all; bhūteṣu—living entity; mat-bhaktim—My devotional service; labhate—gains; parām—transcendental.\n\n
+One who is thus transcendentally situated at once realizes the Supreme Brahman. He never laments nor desires to have anything; he is equally disposed to every living entity. In that state he attains pure devotional service unto Me.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.55\n
+bhaktyā mām abhijānāti\n
+yāvān yaś cāsmi tattvataḥ\n
+tato māṁ tattvato jñātvā\n
+viśate tad-anantaram\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="bhaktyā—by pure devotional service; mām—Me; abhijānāti—one can know; yāvān—as much as; yaḥ ca asmi—as I am; tattvataḥ—in truth; tataḥ—thereafter; mām—Me; tattvataḥ—by truth; jñātvā—knowing; viśate—enters; tat—thereafter; anantaram—after\n\n
+One can understand the Supreme Personality as He is only by devotional service. And when one is in full consciousness of the Supreme Lord by such devotion, he can enter into the kingdom of God.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.58\n
+mac-cittaḥ sarva-durgāṇi\n
+mat-prasādāt tariṣyasi\n
+atha cet tvam ahaṅkārān\n
+na śroṣyasi vinaṅkṣyasi\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mat—My; cittaḥ—consciousness; sarva—all; durgāṇi—impediments; mat—My; prasādāt—My mercy; tariṣyasi—you will overcome; atha—therefore; cet—if; tvam—you; ahaṅkārāt—by false ego; na—not; śroṣyasi—do not hear; vinaṅkṣyasi—then lose yourself.\n\n
+If you become conscious of Me, you will pass over all the obstacles of conditional life by My grace. If, however, you do not work in such consciousness but act through false ego, not hearing Me, you will be lost.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.61\n
+īśvaraḥ sarva-bhūtānāṁ\n
+hṛd-deśe ’rjuna tiṣṭhati\n
+bhrāmayan sarva-bhūtāni\n
+yantrārūḍhāni māyayā\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="īśvaraḥ—the Supreme Lord; sarva-bhūtānām—of all living entities; hṛd-deśe—in the location of the heart; arjuna—O Arjuna; tiṣṭhati—resides; bhrāmayan—causing to travel; sarva-bhūtāni—all living entities; yantra—machine; ārūḍhāni—being so placed; māyayā—under the spell of material energy.\n\n
+The Supreme Lord is situated in everyone’s heart, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine, made of the material energy.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.65\n
+man-manā bhava mad-bhakto\n
+mad-yājī māṁ namaskuru\n
+mām evaiṣyasi satyaṁ te\n
+pratijāne priyo ’si me\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="man-manāḥ—thinking of Me; bhava—just become; mat-bhaktaḥ—My devotee; mat-yājī—My worshiper; mām—unto Me; namaskuru—offer your obeisances; mām—unto Me; eva—certainly; eṣyasi—come; satyam—truly; te—to you; pratijāne—I promise; prijaḥ—dear; asi—you are; me—My.\n\n
+Always think of Me and become My devotee. Worship Me and offer your homage unto Me. Thus you will come to Me without fail. I promise you this because you are My very dear friend.\n\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.66\n
+sarva-dharmān parityajya\n
+mām ekaṁ śaraṇaṁ vraja\n
+ahaṁ tvāṁ sarva-pāpebhyo\n
+mokṣayiṣyāmi mā śucaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sarva-dharmān—all varieties of religion; parityajya—abandoning; mām—unto Me; ekam—only; śaraṇam—surrender; vraja—go; aham—I; tvām—you; sarva—all; pāpebhyaḥ—from sinful reactions; mokṣayiṣyāmi—deliver; mā—not; śucaḥ—worry.\n\n
+Abandon all varieties of religion and just surrender unto Me. I shall deliver you from all sinful reaction. Do not fear.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.68\n
+ya idaṁ paramaṁ guhyaṁ\n
+mad-bhakteṣv abhidhāsyati\n
+bhaktiṁ mayi parāṁ kṛtvā\n
+mām evaiṣyaty asaṁśayaḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yaḥ—anyone; idam—this; paramam—most; guhyam—confidential; mat—Mine; bhakteṣu—amongst devotees of; abhidhāsyati—explains; bhaktim—devotional service; mayi—unto Me; parām—transcendental; kṛtvā—having done; mām—unto Me; eva—certainly; eṣyati—comes; asaṁśayaḥ—without doubt.\n\n
+For one who explains the supreme secret to the devotees, devotional service is guaranteed, and at the end he will come back to Me.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.69\n
+na ca tasmān manuṣyeṣu\n
+kaścin me priya-kṛttamaḥ\n
+bhavitā na ca me tasmād\n
+anyaḥ priyataro bhuvi\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="na—never; ca—and; tasmāt—therefore; manuṣyeṣu—among mankind; kaścit—anyone; me—My; priya-kṛttamaḥ—more dear; bhavitā—will become; na—no; ca—and; me—My; tasmāt—than him; anyaḥ—other; priyataraḥ—dearer; bhuvi—in this world.\n\n
+There is no servant in this world more dear to Me than he, nor will there ever be one more dear.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="18.78\n
+yatra yogeśvaraḥ kṛṣṇo\n
+yatra pārtho dhanur-dharaḥ\n
+tatra śrīr vijayo bhūtir\n
+dhruvā nītir matir mama\n\n"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+yatra—where; yogeśvaraḥ—the master of mysticism; kṛṣṇaḥ—Lord Krṣna; yatra—where; pārthaḥ—the son of Pṛthā; dhanur-dharaḥ—the carrier of the bow and arrow; tatra—there; śrīḥ—opulence; vijayaḥ—victory; bhūtiḥ—exceptional power; dhruvā—certainly; nītiḥ—morality; matiḥ mama—is my opinion.\n\n
+Wherever there is Kṛṣṇa, the master of all mystics, and wherever there is Arjuna, the supreme archer, there will also certainly be opulence, victory, extraordinary power, and morality. That is my opinion.\n\n
+
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

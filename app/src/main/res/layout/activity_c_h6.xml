@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 6"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="6.17\n
+yuktāhāra-vihārasya\n
+yukta-ceṣṭasya karmasu\n
+yukta-svapnāvabodhasya\n
+yogo bhavati duḥkha-hā\n\n"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+yukta—regulated; āhāra—eating; vihārasya—recreation; yukta—regulated; ceṣṭasya—of one who works for maintenance; karmasu—in discharging duties; yukta—regulated; svapna-avabodhasya—regulated sleep and wakefulness; yogaḥ—practice of yoga; bhavati—becomes; duḥkha-hā—diminishing pains.\n\n
+He who is temperate in his habits of eating, sleeping, working and recreation can mitigate all material pains by practicing the yoga system.\n\n"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+6.41\n
+prāpya puṇya-kṛtāṁ lokān\n
+uṣitvā śāśvatīḥ samāḥ\n
+śucīnāṁ śrīmatāṁ gehe\n
+yoga-bhraṣṭo ’bhijāyate\n\n"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+prāpya—after achieving; puṇya-kṛtām—of those who performed pious activities; lokān—planets; uṣitvā—after dwelling; śāśvatīḥ—many; samāḥ—years; śucīnām—of the pious; śrīmatām—of the prosperous; gehe—in the house of; yoga-bhraṣṭaḥ—one who is fallen from the path of self-realization; abhijāyate—takes his birth.\n\n
+The unsuccessful yogī, after many, many years of enjoyment on the planets of the pious living entities, is born into a family of righteous people, or into a family of rich aristocracy.\n\n"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="
+6.47\n
+yoginām api sarveṣāṁ\n
+mad-gatenāntar-ātmanā\n
+śraddhāvān bhajate yo māṁ\n
+sa me yuktatamo mataḥ\n\n"
+                    />
+
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+yoginām—of all yogīs; api—also; sarveṣām—all types of; mat-gatena—abiding in Me; antaḥ-ātmanā—always thinking of Me within; śraddhāvān—in full faith; bhajate—renders transcendental loving service; yaḥ—one who; mām—Me (the Supreme Lord); saḥ—he; me—Mine; yuktatamaḥ—the greatest yogī; mataḥ—is considered.\n\n
+And of all yogīs, he who always abides in Me with great faith, worshiping Me in transcendental loving service, is most intimately united with Me in yoga and is the highest of all.
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

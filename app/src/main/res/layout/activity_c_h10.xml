@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 10"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="10.8\n
+ahaṁ sarvasya prabhavo\n
+mattaḥ sarvaṁ pravartate\n
+iti matvā bhajante māṁ\n
+budhā bhāva-samanvitāḥ\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aham—I; sarvasya—of all; prabhavaḥ—source of generation; mattaḥ—from Me; sarvam—everything; pravartate—emanates; iti—thus; matvā—knowing; bhajante—becomes devoted; mām—unto Me; budhāḥ—learned; bhāva-samanvitāḥ—with great attention.\n\n
+I am the source of all spiritual and material worlds. Everything emanates from Me. The wise who know this perfectly engage in My devotional service and worship Me with all their hearts.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="10.9\n
+mac-cittā mad-gata-prāṇā\n
+bodhayantaḥ parasparam\n
+kathayantaś ca māṁ nityaṁ\n
+tuṣyanti ca ramanti ca\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mat-cittāḥ—minds fully engaged in Me; mat-gata-prāṇāḥ—lives devoted to the service of Kṛṣṇa; bodhayantaḥ—preaching; parasparam—among themselves; kathayantaḥ ca—talking also; mām—about Me; nityam—perpetually; tuṣyanti—are pleased; ca—also; ramanti—enjoy transcendental bliss; ca—also.\n\n
+The thoughts of My pure devotees dwell in Me, their lives are surrendered to Me, and they derive great satisfaction and bliss enlightening one another and conversing about Me.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="10.10\n
+teṣāṁ satata-yuktānāṁ\n
+bhajatāṁ prīti-pūrvakam\n
+dadāmi buddhi-yogaṁ taṁ\n
+yena mām upayānti te\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="teṣām—unto them; satata-yuktānām—always engaged; bhajatām—in devotional service; prīti-pūrvakam—in loving ecstasy; dadāmi—I give; buddhi-yogam—real intelligence; tam—that; yena—by which; mām—unto Me; upayānti—come; te—they.\n\n
+To those who are constantly devoted and worship Me with love, I give the understanding by which they can come to Me.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="10.11\n
+teṣām evānukampārtham\n
+aham ajñāna-jaṁ tamaḥ\n
+nāśayāmy ātma-bhāva-stho\n
+jñāna-dīpena bhāsvatā\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="teṣām—for them; eva—certainly; anukampā-artham—to show special mercy; aham—I; ajñāna-jam—due to ignorance; tamaḥ—darkness; nāśayāmi—dispel; ātma—within; bhāvasthaḥ—themselves; jñāna—of knowledge; dīpena—with the lamp; bhāsvatā—glowing.\n\n
+Out of compassion for them, I, dwelling in their hearts, destroy with the shining lamp of knowledge the darkness born of ignorance.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="10.12-13\n
+Arjuna uvāca\n
+paraṁ brahma paraṁ dhāma\n
+pavitraṁ paramaṁ bhavān\n
+puruṣaṁ śāśvataṁ divyam\n
+ādi-devam ajaṁ vibhum\n
+āhus tvām ṛṣayaḥ sarve\n
+devarṣir nāradas tathā\n
+asito devalo vyāsaḥ\n
+svayaṁ caiva bravīṣi me\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="arjunaḥ uvāca—Arjuna said; param—supreme; brahma—truth; param—supreme; dhāma—sustenance; pavitram—purest; paramam—supreme; bhavān—Yourself; puruṣam—personality; śāśvatam—original; divyam—transcendental; ādi-devam—original Lord; ajam—unborn; vibhum—greatest; āhuḥ—say; tvām—unto You; ṛṣayaḥ—sages; sarve—all; devarṣiḥ—the sage among the demigods; nāradaḥ—Nārada; tathā—also; asitaḥ—Asita; devalaḥ—Devala; vyāsaḥ—Vyāsa; svayam—personally; ca—also; eva—certainly; bravīṣi—explaining; me—unto me.\n\n
+Arjuna said: You are the Supreme Brahman, the ultimate, the supreme abode and purifier, the Absolute Truth and the eternal divine person. You are the primal God, transcendental and original, and You are the unborn and all-pervading beauty. All the great sages such as Nārada, Asita, Devala, and Vyāsa proclaim this of You, and now You Yourself are declaring it to me.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="10.41\n
+yad yad vibhūtimat sattvaṁ\n
+śrīmad ūrjitam eva vā\n
+tat tad evāvagaccha tvaṁ\n
+mama tejo-’ṁśa-sambhavam\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="yat yat—whatever; vibhūti—opulences; mat—having; sattvam—existence; śrīmat—beautiful; ūrjitam—glorious; eva—certainly; vā—or; tat tat—all those; eva—certainly; avagaccha—you must know; tvam—you; mama—My; tejaḥ—splendor; aṁśa—partly; sambhavam—born of.\n\n
+Know that all beautiful, glorious, and mighty creations spring from but a spark of My splendor.\n\n\n"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.home.shlokas.CH11">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chapter - 11"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="11.54\n
+bhaktyā tv ananyayā śakya\n
+aham evaṁ-vidho ’rjuna\n
+jñātuṁ draṣṭuṁ ca tattvena\n
+praveṣṭuṁ ca parantapa\n\n
+"
+                    />
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="bhaktyā—by devotional service; tu—but; ananyayā—without being mixed with fruitive activities or speculative knowledge; śakyaḥ—possible; aham—I; evam-vidhaḥ—like this; arjuna—O Arjuna; jñātum—to know; draṣṭum—to see; tattvena—in fact; praveṣṭum—and to enter into; ca—also; parantapa—O mighty-armed one.\n\n
+My dear Arjuna, only by undivided devotional service can I be understood as I am, standing before you, and can thus be seen directly. Only in this way can you enter into the mysteries of My understanding.\n\n\n
+"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="11.55\n
+mat-karma-kṛn mat-paramo\n
+mad-bhaktaḥ saṅga-varjitaḥ\n
+nirvairaḥ sarva-bhūteṣu\n
+yaḥ sa mām eti pāṇḍava\n\n"
+                    />
+                <TextView
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+mat-karma-kṛt—engaged in doing My work; mat-paramaḥ—concerning Me, the Supreme; mat-bhaktaḥ—engaged in My devotional service; saṅga-varjitaḥ—freed from the contamination of previous activities and mental speculation; nirvairaḥ—without an enemy; sarva-bhūteṣu—to every living entity; yaḥ—one who; saḥ—he; mām—unto Me; eti—comes; pāṇḍava—O son of Pāṇḍu.\n\n
+My dear Arjuna, one who is engaged in My pure devotional service, free from the contaminations of previous activities and from mental speculation, who is friendly to every living entity, certainly comes to Me.
+
+
+" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
